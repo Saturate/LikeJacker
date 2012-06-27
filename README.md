@@ -5,8 +5,6 @@ LikeJacker is a jQuery plugin, for doing the evil deed of clickjacking or likeja
 It is really easy to use, and shows how this can be done with ease.
 I wrote it some time ago in pure javascript, but as a exericie I converted it to a jQuery plugin. It is for demonstration purposes only. 
 
-PS. It will not make you move-like-jagger
-
 
 Does it work?
 -------------
@@ -35,7 +33,7 @@ Setup
 1. Include jQuery and the likejacker
 ```
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.likehjacker.js"></script>
+<script type="text/javascript" src="js/jquery.likejacker.js"></script>
 ```
 
 2. Append it to a element
