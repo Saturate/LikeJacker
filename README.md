@@ -3,7 +3,7 @@ jQuery Likejacker
 LikeJacker is a jQuery plugin, for doing the evil deed of clickjacking or likejacking.
 
 It is really easy to use, and shows how this can be done with ease.
-I wrote it some time ago in pure javascript, but as a exericie I converted it to a jQuery plugin. It is for demonstration purposes only. 
+I wrote it some time ago in pure JavaScript, but as a exericie I converted it to a jQuery plugin. It is for demonstration purposes only. 
 
 
 Does it work?
